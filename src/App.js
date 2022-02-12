@@ -1,10 +1,12 @@
 import "./styles.css";
 import Home from "./components/Home";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
       <Home />
     </div>
   );
 }
+
+export default App;

@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  font-family: Oswald;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  margin-top: 10px;
+  color: #ee3218;
+}
+
+.span {
+  width: 60px;
+  height: 60px;
+  left: 126px;
+  border-radius: 50%;
+  background: #fbfbfb;
+  border: 2.5px solid #ee3218;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+  text-decoration: none;
+  font-family: Oswald;
+}
+
+li {
+  margin: 2rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}

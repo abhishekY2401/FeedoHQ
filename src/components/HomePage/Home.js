@@ -1,5 +1,4 @@
 import "./Home.css";
-import Form from "../Form";
 import { Link } from "react-router-dom";
 
 const Home = () => {

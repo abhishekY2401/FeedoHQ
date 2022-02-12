@@ -1,4 +1,5 @@
 import "./About.css";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -74,10 +75,7 @@ const About = () => {
         </div>
       </div>
       <br /> <br />
-      <a href="index.html" id="goback">
-        Click here to go back to homepage
-      </a>
-      {/*homepage link yet to come*/}
+      <Link to="/home">Click here to go back to homepage</Link>
     </div>
   );
 };

@@ -20,3 +20,20 @@
     width: 100%;
     margin: auto;
 }
+
+.btn {
+    padding: 1.2rem;
+    width: 10rem;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #444444;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #323232;
+}

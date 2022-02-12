@@ -15,25 +15,16 @@ const Question = (props) => {
   const enableSlider = (id) => {
     for (let i = 0; i < slider.length; i++) {
       // if the checked is false show the slider
-      if (id == slider[id] && slider[id].checked == true) {
-        setSlider((prevState) => [...prevState, (slider[id].checked = false)]);
-        console.log(slider);
+      if (id == slider[i].id && slider[i].checked == true) {
+        setSlider((prevState) => [...prevState, (slider[i].checked = false)]);
       }
 
       // if the checked is true hide the slider
-      if (id == slider[id].id && slider[id].checked == false) {
-        setSlider((prevState) => [...prevState, (slider[id].checked = true)]);
-        console.log(slider);
+      if (id == slider[i].id && slider[i].checked == false) {
+        setSlider((prevState) => [...prevState, (slider[i].checked = true)]);
       }
     }
   };
-
-  // const addOption = (e) => {
-  //     const element = e.target;
-  //     if (element.keyCode == 'Enter') {
-
-  //     }
-  // }
 
   return (
     <div className="quest">

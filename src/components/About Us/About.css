@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(40, 191, 239, 0.47);
+    /*background-color: rgba(23, 233, 107, 0.92);*/ 
+    margin-bottom: 80px;
+
+    text-align: center;
+    font-size: 30px;
+
+}
+
+header {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#newhead {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 80px;
+    color: rgb(0, 0, 0);
+
+}
+
+
+#container1 {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(0, 0, 0);
+
+
+    margin-left: 130px;
+    margin-right: 130px;
+
+
+    align-items: center;
+}
+
+label {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#name {
+    border-radius: 18px;
+    padding: 15px;
+    width: 200px;
+    height: 10px;
+
+    color: rgb(5, 5, 5);
+
+    font-size: 20px;
+    font-weight: bold;
+    font-style: 'Comic Sans MS';
+}
+
+#email {
+    border-radius: 18px;
+    padding: 15px;
+    width: 200px;
+    height: 10px;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#message {
+    border-radius: 9px;
+    padding: 15px;
+    width: 200px;
+    height: 100px;
+
+    color: rgb(0, 0, 0);
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Comic Sans MS';
+    opacity: 900%;
+    border-style: ridge;
+
+
+    display: inline-block;
+    /*background-color: antiquewhite;*/
+}
+
+#para1 {
+    text-align: center;
+    font-size: 115%;
+}
+
+#container2 {
+    text-align: center;
+
+    background-color: white;
+
+    align-items: center;
+
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    border-radius: 20px;
+}
+
+#sendbtn {
+    border-radius: 50px;
+    font-size: x-large;
+    font-style: 'Comic Sans MS';
+
+    font-weight: bold;
+
+    width: 130px;
+    padding: auto;
+    margin: 40px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    font-family: 'Comic Sans MS';
+    color: rgb(0, 0, 0);
+}

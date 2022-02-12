@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background: #71b4cf;
+    width: 100%;
+    z-index: 10;
+    position: relative;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+nav a.navbuttons:hover {
+    text-decoration: none;
+}
+
+.carousel-caption,
+h3 {
+    font-weight: lighter;
+}
+
+.footer {
+    font-size: x-small;
+}
+
+h1 {
+    font-family: 'Bahnschrift Condensed';
+    text-align: right;
+    font-weight: 650;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+span {
+    padding-right: 30px;
+}
+
+.container {
+    position: auto;
+    height: 110px;
+    left: 0px;
+    top: 0px;
+    background: #FBFBFB;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.container2 {
+    text-align: auto;
+    font-family: 'Bahnschrift Condensed';
+    font-size: 35px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 220px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: rgba(40, 191, 239, 0.47);
+
+
+}
+
+.container3 {
+    position: absolute;
+    width: 1895px;
+    height: 622px;
+    left: 0px;
+    top: 665px;
+    background: #FBFBFB;
+}
+
+h4 {
+    /* Line 1 */
+
+    position: absolute;
+    width: 140px;
+    height: 0px;
+    left: 825px;
+    top: 69px;
+
+    border: 2px solid #0085FF;
+
+}
+
+h2 {
+    text-align: center;
+    position: absolute;
+    height: 52px;
+    left: 584px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 52px;
+    padding-left: 200px;
+    font-size: 30px;
+}
+
+.container4 {
+    position: absolute;
+    width: 300px;
+    height: 350px;
+    left: 750px;
+    top: 810px;
+
+    background: rgba(23, 233, 107, 0.92);
+    border-radius: 20px;
+
+}
+
+span {
+    text-align: center;
+    font-size: 35px;
+}
+
+.container6 {
+    position: absolute;
+    width: 1895px;
+    height: 285px;
+    left: 0px;
+    top: 1272px;
+
+    background: rgba(250, 250, 250, 0.5);
+
+}
+
+h3 {
+    position: absolute;
+    width: 111px;
+    height: 50px;
+    left: 207px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 69px;
+    color: #282828;
+
+}
+
+.bi-book {
+    position: absolute;
+    left: 120px;
+    right: 66.67%;
+    top: 60px;
+    bottom: 36px;
+    font-size: 60px;
+}
+
+.span {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 126px;
+    top: 14px;
+    border-radius: 50%;
+    background: #FBFBFB;
+    border: 2.5px solid #EE3218;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h5 {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+    color: #EE3218;
+}
+
+.button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.button:hover {
+    width: 200px;
+}
+
+.button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.button:nth-child(1):hover .icon {
+    background: #060707;
+}
+
+.button:nth-child(2):hover .icon {
+    background: #060707;
+}
+
+.fa-github:before {
+    font-size: 35px;
+}
+
+.fa-twitter:before {
+    font-size: 35px;
+    content: "\f099";
+}
+
+.container6 {
+    position: absolute;
+    width: 100%;
+    height: 67%;
+    left: 0px;
+    top: 1272px;
+    background: rgb(172 169 169 / 50%);
+}
+
+.container7 {
+    position: absolute;
+    width: 1895px;
+    height: 285px;
+    left: 0px;
+    top: 1330px;
+    padding-left: 1500px;
+    background: rgba(250, 250, 250, 0.5);
+
+}

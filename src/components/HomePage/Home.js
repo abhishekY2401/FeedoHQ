@@ -22,9 +22,7 @@ const Home = () => {
         <br /> <br />
         <div className="container2">
           <div style={{ paddingRight: "1000px" }}>
-            <span>SEND DETAILED FEEDBACK</span>
-            <br /> <br />
-            <span>TO CANDIDATES</span>
+            <span>SEND DETAILED FEEDBACK</span><br/>TO CANDIDATES
             <span>
               <img
                 src="img/undraw_feedback_re_urmj.svg "
@@ -42,7 +40,7 @@ const Home = () => {
           </div>
         </div>
         <div className="container3">
-          <h2>WHAT WE PROVIDE</h2>
+          <h2 id="h2">WHAT WE PROVIDE</h2>
         </div>
         <div className="container4">
           <span>

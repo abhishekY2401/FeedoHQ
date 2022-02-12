@@ -70,7 +70,7 @@ span {
     font-size: 35px;
     color: white;
     font-weight: bolder;
-    padding-left: 220px;
+    padding-left: 20px;
     padding-top: 200px;
     padding-bottom: 200px;
     background: rgba(40, 191, 239, 0.47);
@@ -100,7 +100,19 @@ h4 {
 
 }
 
-h2 {
+/*h2 {
+    text-align: center;
+    position: absolute;
+    height: 52px;
+    left: 584px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 52px;
+    padding-left: 200px;
+    font-size: 30px;
+}*/
+
+#h2 {
     text-align: center;
     position: absolute;
     height: 52px;
@@ -124,10 +136,7 @@ h2 {
 
 }
 
-span {
-    text-align: center;
-    font-size: 35px;
-}
+
 
 .container6 {
     position: absolute;

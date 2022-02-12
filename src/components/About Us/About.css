@@ -40,12 +40,8 @@ header {
     font-weight: bold;
     text-align: left;
     color: rgb(0, 0, 0);
-
-
     margin-left: 130px;
     margin-right: 130px;
-
-
     align-items: center;
 }
 
@@ -96,8 +92,6 @@ input {
     font-family: 'Comic Sans MS';
     opacity: 900%;
     border-style: ridge;
-
-
     display: inline-block;
     /*background-color: antiquewhite;*/
 }

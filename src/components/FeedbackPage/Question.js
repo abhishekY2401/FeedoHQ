@@ -37,7 +37,7 @@ const Question = (props) => {
 
   return (
     <div className="quest">
-      <h2>{props.question}</h2>
+      <h2 id="qns">{props.question}</h2>
 
       <ol>
         <input

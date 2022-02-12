@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body {
-    text-align: center;
-}
-
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -94,7 +90,7 @@ span {
 h4 {
     /* Line 1 */
 
-    position: absolute;
+    /* position: absolute; */
     width: 140px;
     height: 0px;
     left: 825px;

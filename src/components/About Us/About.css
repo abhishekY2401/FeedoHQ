@@ -26,8 +26,10 @@ header {
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: 25px;
-    padding-left: 80px;
+    padding-left: 0px;
     color: rgb(0, 0, 0);
+    background-color: white;
+    width: 100%;
 
 }
 
@@ -135,4 +137,16 @@ input {
 
     font-family: 'Comic Sans MS';
     color: rgb(0, 0, 0);
+}
+
+#about {
+    text-align: center;
+    font-size: 75px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 75px;
+
+    margin-top: -10px;
 }

@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
       <header>
-        <h1> About Us </h1>
+        <h1 id="about"> About Us </h1>
       </header>
       <br />
       <div id="container1">
@@ -40,7 +40,7 @@ const About = () => {
         <div id="container2">
           <header id="newhead">
             <br />
-            <h1> CONTACT US </h1>
+            <h1 id="contact"> CONTACT US </h1>
           </header>
           <br /> <br />
           <span>

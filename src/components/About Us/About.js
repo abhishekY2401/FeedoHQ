@@ -45,10 +45,10 @@ const About = () => {
           </header>
           <br /> <br />
           <span>
-            <label>Name: </label>
-            <input type="text" name="thename" id="name" />
-            <label>Mail-Id: </label>
-            <input type="text" name="themail" id="email" />
+            <label className="C2-label">Name: </label>
+            <input className="C2-input" type="text" name="thename" id="name" />
+            <label className="C2-label">Mail-Id: </label>
+            <input className="C2-input" type="text" name="themail" id="email" />
           </span>
           <br /> <br />
           <span>

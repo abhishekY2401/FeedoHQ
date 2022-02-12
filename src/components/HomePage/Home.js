@@ -5,16 +5,16 @@ const Home = () => {
   return (
     <div className="box">
       <div className="box-area">
-        <header>
+        <header className="header-navbar">
           <div className="wrapper">
-            <nav>
+            <nav className="nav-navbar">
               <Link to="/feedback">FEEDBACK</Link>
               <Link to="/signup">SIGN UP</Link>
               <Link to="/login">LOGIN</Link>
               <Link to="/about-us">ABOUT US</Link>
             </nav>
             <div className="span">
-              <h5>F</h5>
+              <h5 className="h5-logo">F</h5>
             </div>
           </div>
         </header>
@@ -22,7 +22,7 @@ const Home = () => {
         <br /> <br />
         <div className="container2">
           <div style={{ paddingRight: "1000px" }}>
-            <span>SEND DETAILED FEEDBACK</span><br/>TO CANDIDATES
+            <span className="C2-span">SEND DETAILED FEEDBACK</span><br/>TO CANDIDATES
             <span>
               <img
                 src="img/undraw_feedback_re_urmj.svg "
@@ -60,7 +60,7 @@ const Home = () => {
             <div className="span">
               <h5>F</h5>
             </div>
-            <h3>Feedo</h3>
+            <h3 className="H-Feedo">Feedo</h3>
           </div>
           <div className="container7">
             <div className="button">

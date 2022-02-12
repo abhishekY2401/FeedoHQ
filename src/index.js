@@ -13,6 +13,7 @@ ReactDOM.render(
       <Route path="/" element={<App />} />
       <Route path="/login" element={<Login />} />
       <Route path="/about-us" element={<About />} />
+      <Route path="/home" element={<Home />} />
     </Routes>
   </BrowserRouter>,
   rootElement

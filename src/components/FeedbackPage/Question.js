@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Question.css";
 
 const Question = (props) => {
   // making a boolean check value
@@ -51,68 +52,82 @@ const Question = (props) => {
   return (
     <div className="quest">
       <h2 id="qns">{props.question}</h2>
+      <div className="options">
+        <ol>
+          <input
+            type="checkbox"
+            value={props.value1}
+            id="0"
+            onChange={() => enableSlider(0)}
+          />
+          <label className="label-option-text">{props.value1}</label>
+          {slider[0].checked && (
+            <input className="input-slider" type="range" min="0" max="10" />
+          )}
+        </ol>
 
-      <ol>
-        <input
-          type="checkbox"
-          value={props.value1}
-          id="0"
-          onChange={(e) => {
-            enableSlider(0);
-            getValue(e);
-          }}
-          required
-        />
-        <label>{props.value1}</label>
-        {slider[0].checked && <input type="range" min="0" max="10" />}
-      </ol>
+        <ol>
+          <input
+            type="checkbox"
+            value={props.value1}
+            id="0"
+            onChange={(e) => {
+              enableSlider(0);
+              getValue(e);
+            }}
+            required
+          />
+          <label>{props.value1}</label>
+          {slider[0].checked && <input type="range" min="0" max="10" />}
+        </ol>
 
-      <ol>
-        <input
-          type="checkbox"
-          value={props.value2}
-          id="1"
-          onChange={(e) => {
-            enableSlider(1);
-            getValue(e);
-          }}
-          required
-        />
-        <label>{props.value2}</label>
-        {slider[1].checked && <input type="range" min="0" max="10" />}
-      </ol>
+        <ol>
+          <input
+            type="checkbox"
+            value={props.value2}
+            id="1"
+            onChange={(e) => {
+              enableSlider(1);
+              getValue(e);
+            }}
+            required
+          />
+          <label>{props.value2}</label>
+          {slider[1].checked && <input type="range" min="0" max="10" />}
+        </ol>
 
-      <ol>
-        <input
-          type="checkbox"
-          value={props.value3}
-          id="2"
-          onChange={(e) => {
-            enableSlider(2);
-            getValue(e);
-          }}
-          required
-        />
-        <label>{props.value3}</label>
-        {slider[2].checked && <input type="range" min="0" max="10" />}
-      </ol>
+        <ol>
+          <input
+            type="checkbox"
+            value={props.value3}
+            id="2"
+            onChange={(e) => {
+              enableSlider(2);
+              getValue(e);
+            }}
+            required
+          />
+          <label>{props.value3}</label>
+          {slider[2].checked && <input type="range" min="0" max="10" />}
+        </ol>
 
-      <ol>
-        <input
-          type="checkbox"
-          value={props.value4}
-          id="3"
-          onChange={(e) => {
-            enableSlider(3);
-            getValue(e);
-          }}
-          required
-        />
-        <label>{props.value4}</label>
-        {slider[3].checked && <input type="range" min="0" max="10" />}
-      </ol>
+        <ol>
+          <input
+            type="checkbox"
+            value={props.value4}
+            id="3"
+            onChange={(e) => {
+              enableSlider(3);
+              getValue(e);
+            }}
+            required
+          />
+          <label>{props.value4}</label>
+          {slider[3].checked && <input type="range" min="0" max="10" />}
+        </ol>
 
-      <br />
+        <br />
+      </div>
     </div>
   );
 };

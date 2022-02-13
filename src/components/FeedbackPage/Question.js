@@ -58,27 +58,16 @@ const Question = (props) => {
             type="checkbox"
             value={props.value1}
             id="0"
-            onChange={() => enableSlider(0)}
-          />
-          <label className="label-option-text">{props.value1}</label>
-          {slider[0].checked && (
-            <input className="input-slider" type="range" min="0" max="10" />
-          )}
-        </ol>
-
-        <ol>
-          <input
-            type="checkbox"
-            value={props.value1}
-            id="0"
             onChange={(e) => {
               enableSlider(0);
               getValue(e);
             }}
             required
           />
-          <label>{props.value1}</label>
-          {slider[0].checked && <input type="range" min="0" max="10" />}
+          <label className="label-option-text">{props.value1}</label>
+          {slider[0].checked && (
+            <input type="range" min="0" max="10" className="input-slider" />
+          )}
         </ol>
 
         <ol>
@@ -92,8 +81,10 @@ const Question = (props) => {
             }}
             required
           />
-          <label>{props.value2}</label>
-          {slider[1].checked && <input type="range" min="0" max="10" />}
+          <label className="label-option-text">{props.value2}</label>
+          {slider[1].checked && (
+            <input type="range" min="0" max="10" className="input-slider" />
+          )}
         </ol>
 
         <ol>
@@ -107,8 +98,10 @@ const Question = (props) => {
             }}
             required
           />
-          <label>{props.value3}</label>
-          {slider[2].checked && <input type="range" min="0" max="10" />}
+          <label className="label-option-text">{props.value3}</label>
+          {slider[2].checked && (
+            <input type="range" min="0" max="10" className="input-slider" />
+          )}
         </ol>
 
         <ol>
@@ -122,8 +115,10 @@ const Question = (props) => {
             }}
             required
           />
-          <label>{props.value4}</label>
-          {slider[3].checked && <input type="range" min="0" max="10" />}
+          <label className="label-option-text">{props.value4}</label>
+          {slider[3].checked && (
+            <input type="range" min="0" max="10" className="input-slider" />
+          )}
         </ol>
 
         <br />

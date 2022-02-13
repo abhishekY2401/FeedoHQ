@@ -22,10 +22,12 @@ const Home = () => {
         <br /> <br />
         <div className="container2">
           <div style={{ paddingRight: "1000px" }}>
-            <span className="C2-span">SEND DETAILED FEEDBACK</span><br/>TO CANDIDATES
+            <span className="C2-span">SEND DETAILED FEEDBACK</span>
+            <br />
+            TO CANDIDATES
             <span>
               <img
-                src="img/undraw_feedback_re_urmj.svg "
+                src="../images/undraw_Feedback_re_urmj (1).png"
                 style={{
                   position: "absolute",
                   width: "533px",

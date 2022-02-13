@@ -1,8 +1,11 @@
 import { useState } from "react";
+import ReactPDF from "@react-pdf/renderer";
 
 import "./Form.css";
 import Question from "./Question";
 import Report from "./Report";
+
+// ReactPDF.render(<Report />, `Downloads/example.pdf`);
 
 const Form = () => {
   const [formData, setFormData] = useState([]);

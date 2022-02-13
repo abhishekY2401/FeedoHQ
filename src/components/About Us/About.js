@@ -1,7 +1,25 @@
 import "./About.css";
 import { Link } from "react-router-dom";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 
 const About = () => {
+  
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE_ID, process.env.REACT_APP_EMAIL_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAIL_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  };
+  
   return (
     <div>
       <header>
@@ -43,6 +61,7 @@ const About = () => {
             <br />
             <h1 id="contact"> CONTACT US </h1>
           </header>
+          <form ref={form} onSubmit={sendEmail}>
           <br /> <br />
           <span>
             <label className="C2-label">Name: </label>
@@ -67,6 +86,7 @@ const About = () => {
             {" "}
             SEND{" "}
           </button>
+          </form>
           <br />
           <p id="para1">
             We will get back to you ASAP 🤝! <br />

@@ -95,7 +95,7 @@ const About = () => {
         </div>
       </div>
       <br /> <br />
-      <Link to="/home">Click here to go back to homepage</Link>
+      <Link to="/">Click here to go back to homepage</Link>
     </div>
   );
 };

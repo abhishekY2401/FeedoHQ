@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Sawo from "sawo";
+import Home from "../HomePage/Home";
 
 import "./Login.css";
 
@@ -18,7 +19,7 @@ const Login = () => {
         console.log("Payload : " + JSON.stringify(payload));
         setUserLoggedIn(true);
         setPayload(payload);
-      }
+      },
     };
     let sawo = new Sawo(config);
     sawo.showForm();
@@ -30,15 +31,7 @@ const Login = () => {
         <h2 className="title">Feedo Login Page</h2>
         <h2 className="title">User Logged In : {isUserLoggedIn.toString()}</h2>
 
-        {!isUserLoggedIn ? (
-          <div className="formContainer" id="sawo-container"></div>
-        ) : (
-          <div className="loggedin">
-            <h2>User Successful Login</h2>
-            <div>UserId: {payload.user_id}</div>
-            <div>Verification Token: {payload.verification_token}</div>
-          </div>
-        )}
+        {!isUserLoggedIn && <Home />}
       </section>
     </div>
   );

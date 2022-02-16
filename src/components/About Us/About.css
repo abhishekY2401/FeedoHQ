@@ -3,14 +3,6 @@
   padding: 0px;
 }
 
-body {
-  /* background-color: rgba(40, 191, 239, 0.47);
-    background-color: rgba(23, 233, 107, 0.92);  */
-  margin-bottom: 80px;
-
-  text-align: center;
-  font-size: 30px;
-}
 
 #about {
   text-align: center;
@@ -264,9 +256,4 @@ a.member__link {
 .center-vert-content {
   display: inline-block;
   vertical-align: middle;
-}
-h3{
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 50px;
 }

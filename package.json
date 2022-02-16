@@ -8,15 +8,9 @@
   ],
   "main": "src/index.js",
   "dependencies": {
-<<<<<<< HEAD
-<<<<<<< HEAD
     "@emailjs/browser": "^3.4.0",
-=======
     "@react-pdf/renderer": "^2.1.1",
->>>>>>> d865c37345014915c156e6c3de68bebcba632628
-=======
-    "@react-pdf/renderer": "^2.1.1",
->>>>>>> d865c37345014915c156e6c3de68bebcba632628
+    "bootstrap-icons": "^1.8.1",
     "firebase": "^9.6.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",

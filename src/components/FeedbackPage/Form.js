@@ -71,7 +71,7 @@ const Form = () => {
           value4="give up"
         />
 
-        <label>Do you have anything to say to the candidate?</label>
+        <label id="any">Do you have anything to say to the candidate?</label>
         <input type="text" placeholder="Any thoughts.." id="thoughts" />
 
         <button type="submit" class="btn btn-primary" onClick={handleSubmit}>

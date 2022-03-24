@@ -59,3 +59,16 @@ a:hover {
     font-size: 1.7rem;
     color: #EE2183;
 }
+
+@media screen and (max-width: 600px) {
+    nav {
+        width: 50%;
+        margin-left: 50vw;
+    }
+    a {
+        margin-left: -16px;
+    }
+    .logo {
+        transform: translate(50px, 0);
+    }
+}

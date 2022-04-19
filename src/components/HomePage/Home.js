@@ -12,7 +12,7 @@ const Home = () => {
       <header id="img-header">
         <h3 className="text">
           send detailed feedback <br />
-          to candidates
+          to interviewed candidates
         </h3>
         <img src={boy} alt="feedback" id="boy"></img>
       </header>

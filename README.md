@@ -8,7 +8,7 @@ A tool for recruiters to generate a detailed feedback report for the interviewed
 
 ![image](https://user-images.githubusercontent.com/89199323/178194255-26132504-7f77-4629-8d06-0040e6f85458.png)
 
-<h2>Tech Stack</h2>
+<h2>Tech Stack ⚒️</h2>
 1. Frontend (ReactJS)<br />
 2. Backend (NextJS)<br/>
 3. Tensorflow (train the speech-to-text model)<br/>
